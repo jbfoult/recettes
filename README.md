@@ -1,4 +1,5 @@
 # Recettes
+Lien: https://petitetambouille.github.io/recettes/index.html
 
 Pour ajouter une recette, 
 1. Aller dans la page appropriée
