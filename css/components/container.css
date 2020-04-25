@@ -1,0 +1,244 @@
+/*Container*/
+
+.container {
+  width: 900px auto; /* set the width of your container */
+  margin: 10px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  padding: 20px 50px 20px 50px
+}
+
+.container_index {
+  width: 900px auto; /* set the width of your container */
+  margin: 10px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+  padding: 20px 20px 20px 20px
+}
+
+.card-white{
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px rgb(185, 61, 41);
+    border-radius: 6px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+.card-white:hover {
+  box-shadow: 6px 2px 9px rgb(185, 61, 41);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.icon-bar {
+  background-color: #b93d2a;
+  overflow: hidden;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  text-align: center;
+  align-items:center;
+}
+
+/*Card-Sidebar*/
+
+.card-sidebar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  text-align: center;
+  background-color: #562929;
+  color: white;
+  justify-content: space-between;
+}
+
+.card-sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+ }
+
+ .card-sidebar ul li {
+  display: inline;
+  text-align: center;
+}
+
+ .card-sidebar a {
+  color: white;
+  margin-left: 30px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+ .card-sidebar a:hover {
+  color: #381710;
+}
+
+#border:hover {
+  color: #381710;
+  border-bottom: #381710;
+  border-bottom-style: solid;
+  border-top: #381710;
+  border-top-style: solid;
+}
+
+.awards {
+  color: #8a1c13;
+  font-family: Lucida, serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+div.bordure {
+border-bottom:1px solid white;
+}
+
+/*Card-Sidebar Page*/
+
+.card-sidebar-page {
+    position: sticky;
+    width: 100%;
+    top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: white;
+    color: #b93d2a;
+    justify-content: space-between;
+}
+
+.card-sidebar-page ul {
+  list-style: none;
+  padding-left: 0px;
+ }
+
+ .card-sidebar-page ul li {
+  display: inline;
+  text-align: center;
+}
+
+ .card-sidebar-page a {
+  color: white;
+  padding-left: 30px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.page-title {
+  font-family: "Didot Italic";
+  font-weight: normal;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4a4843;
+}
+
+.page-subtitle {
+  margin-top: 1rem;
+  font-family: "Avenir Light";
+  font-weight: normal;
+  font-size: 1.125rem;
+  text-align: center;
+  color: #fa7269;
+}
+
+.page {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/*List*/
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 10px; /* add som left/right padding between list items */
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: white;
+}
+
+.list-inline i:hover {
+  color:#381710;
+}
+
+/*Blocks*/
+
+.block-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.block {
+  max-width: 35rem;
+  width: 45%;
+  box-sizing: border-box;
+  background-color: white;
+  /* padding: 20px; */
+  text-align: left;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  /* flex-basis: 250px; */
+  /* flex-grow: 1; */
+  /* margin: 20px; */
+}
+
+.block-text {
+  background-color: #ffffff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Skills * Hobbies*/
+
+.skills-list {
+  display: grid;
+  margin-top: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 20px;
+}
+
+.skill-block {
+  margin: 0 0.75rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px #84221a;
+  border-radius: 3px;
+}
+
+
+.hobbies-block {
+  margin: 0 0.75rem;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}

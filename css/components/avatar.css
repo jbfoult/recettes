@@ -1,0 +1,40 @@
+img{
+    width: 100px;
+    border-radius: 6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index {
+  width: 300px;
+  height: 300px;
+  min-height: 100%;
+  max-height: 37.5rem;
+  object-fit: cover;
+}
+
+#img-list {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+/*Block*/
+
+.block-image {
+    max-width: 35rem;
+    width: 400px;
+    min-height: 100%;
+    max-height: 37.5rem;
+    object-fit: cover;
+}
+
+.block-image-small {
+    max-width: 35rem;
+    width: 300px;
+    min-height: 100%;
+    max-height: 37.5rem;
+    object-fit: cover;
+}
