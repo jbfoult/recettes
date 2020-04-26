@@ -85,7 +85,7 @@ Et au dessus de
 
 Entrées, Plats et desserts représentent chacun un bloc.
 Une fois que la recette a été crée, il suffit d'ajouter une ligne de code
-* Mot clé sans espace est le ID que vous avez ajouté précédemment, il suffit de le collé ici
+* Mot clé sans espace est le ID que vous avez ajouté précédemment, il suffit de le collé ici **cela doit être le même mot clé/id que sur la page de recette**
 
                     <li><a href="Plat.html#MOT CLE SANS ESPACE">NOM DE LA RECETTE</a></li>
                 
