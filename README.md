@@ -3,7 +3,7 @@ Lien: https://petitetambouille.github.io/recettes/index.html
 
 **Attention, ne pas toucher le dossier nommé "CSS"**
 
-Pour ajouter une recette, 
+Pour ajouter une recette c'est **SUPER FACILE, à condition de maitriser le copier/collé**
 1. Aller dans la page appropriée
 2. Compléter le bout de code
 3. Ajouter entre des recettes dans la page appropriée
@@ -35,6 +35,8 @@ Puis ajoutée la recette au format suivant en remplacant les mots en gras
                   <h4>TEXTE 3</h4>
                   <h4>TEXTE 4</h4>
                 </div>
+
+**WAOU! Bravo tu as fait tes premières lignes de code! Le plus dur a été fait!**
 
 ## 3.Ajouter entre des recettes dans la page appropriée
 
@@ -82,6 +84,8 @@ Et au dessus de
        </body>
 
       </html>
+      
+**Génial! T'es presque au bout, plus que l'index à mettre à jour!**
 
 ## 4.Ajouter un lien dans le menu sur la page principale
 
@@ -90,4 +94,6 @@ Une fois que la recette a été crée, il suffit d'ajouter une ligne de code
 * Mot clé sans espace est le ID que vous avez ajouté précédemment, il suffit de le collé ici **cela doit être le même mot clé/id que sur la page de recette**
 
                     <li><a href="Plat.html#MOT CLE SANS ESPACE">NOM DE LA RECETTE</a></li>
+                    
+**Félicitations !**
                 
