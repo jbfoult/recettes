@@ -5,9 +5,8 @@ Lien: https://petitetambouille.github.io/recettes/index.html
 
 Pour ajouter une recette c'est **SUPER FACILE, à condition de maitriser le copier/collé**
 1. Aller dans la page appropriée
-2. Compléter le bout de code
-3. Ajouter entre des recettes dans la page appropriée
-4. Ajouter un lien dans le menu sur la page principale
+2. Compléter le bout de code & Ajouter entre des recettes dans la page appropriée
+3. Ajouter un lien dans le menu sur la page principale
 
 ## 1.Trouver la page appropriée
 * Entree.html
@@ -36,9 +35,24 @@ Puis ajoutée la recette au format suivant en remplacant les mots en gras
                   <h4>TEXTE 4</h4>
                 </div>
 
+
+Petite exception si la recette provient d'un site internet et que vous souhaitez y ajouter le site
+
+                <div class="skill-block" id="MOT CLE SANS ESPACE">
+                <h2 >NOM DE LA RECETTE</h2><a href="www.site.com">Recette originale ici</a>
+                  <h3 ><ul>
+                    <li>INGREDIENT 1</li>
+                    <li>INGREDIENT 2</li>
+                    <li>INGREDIENT 3</li>
+                  </ul></h3>
+                  <h4>TEXTE 1</h4>
+                  <h4>TEXTE 2</h4>                  
+                  <h4>TEXTE 3</h4>
+                  <h4>TEXTE 4</h4>
+                </div>
 **WAOU! Bravo tu as fait tes premières lignes de code! Le plus dur a été fait!**
 
-## 3.Ajouter entre des recettes dans la page appropriée
+## Ajouter entre des recettes dans la page appropriée
 
 Les recettes sont par ordre alphabétiques sur chaque page, chaque bloc de recette est séparé par un saut à la ligne. Le bloc de recette doit etre mis en dessous de:
 
