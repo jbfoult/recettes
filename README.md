@@ -9,12 +9,12 @@ Pour ajouter une recette,
 3. Ajouter entre des recettes dans la page appropriée
 4. Ajouter un lien dans le menu sur la page principale
 
-## Trouver la page appropriée
+## 1.Trouver la page appropriée
 * Entree.html
 * Plat.html
 * Desserts.html
 
-## Compléter le bout de code
+## 2.Compléter le bout de code
 Puis ajoutée la recette au format suivant en remplacant les mots en gras
 
 * id représente un mot de clés unique, sans epsace, par exemple Boeuf Bourguignon, son id est "Boeuf_Bourguignon" **le mot clé doit être SANS ESPACE, le copié pour l'insérer dans l'index dans la suite tel qu'expliqué dans la 4ème partie**
@@ -36,7 +36,7 @@ Puis ajoutée la recette au format suivant en remplacant les mots en gras
                   <h4>TEXTE 4</h4>
                 </div>
 
-## Ajouter entre des recettes dans la page appropriée
+## 3.Ajouter entre des recettes dans la page appropriée
 
 Les recettes sont par ordre alphabétiques sur chaque page, chaque bloc de recette est séparé par un saut à la ligne. Le bloc de recette doit etre mis en dessous de:
 
@@ -83,7 +83,7 @@ Et au dessus de
 
       </html>
 
-## Ajouter un lien dans le menu sur la page principale
+## 4.Ajouter un lien dans le menu sur la page principale
 
 Entrées, Plats et desserts représentent chacun un bloc.
 Une fois que la recette a été crée, il suffit d'ajouter une ligne de code
