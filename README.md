@@ -16,7 +16,7 @@ Pour ajouter une recette,
 Puis ajoutée la recette au format suivant en remplacant les mots en gras
 
 * id représente un mot de clés unique, sans epsace, par exemple Boeuf Bourguignon, son id est "Boeuf_Bourguignon"
-* Non de la recette est le nom tel qu'il va apparaitre en titre de recette
+* Nom de la recette est le nom tel qu'il va apparaitre en titre de recette
 * Ingredients pour avoir une liste d'ingredients, si jamais vous avez besoin de plus d'ingrédients il suffit de copier la ligne et la recoller juste en dessous avant </ul></h3>
 * Texte pour avoir la recette séparée en plusieurs parties (saut à la ligne), si jamais vous avez besoin de plus de texte il suffit de copier la ligne et la recoller juste en dessous avant </div>
 
